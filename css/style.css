@@ -136,4 +136,20 @@ footer {
 .fab {
   font-size: 50px;
   opacity: 0.3;
+  cursor: pointer;
+}
+
+
+.fa-facebook-square:hover {
+  opacity: 1;
+}
+.fa-instagram:hover {
+  opacity: 1;
+}
+.fa-github:hover {
+  opacity: 1;
+}
+
+#home:hover {
+  background-color: black;
 }
