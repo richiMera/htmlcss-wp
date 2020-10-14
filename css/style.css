@@ -43,6 +43,10 @@ header {
   line-height: 50px;
   background-color: #495057;
 }
+a {
+  color: white;
+  text-decoration: none;
+}
 ul.menù {
   list-style: none;
 }
@@ -148,8 +152,4 @@ footer {
 }
 .fa-github:hover {
   opacity: 1;
-}
-
-#home:hover {
-  background-color: black;
 }
