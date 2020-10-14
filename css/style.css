@@ -71,6 +71,7 @@ main {
   float: left;
   background-color: white;
   margin-top: 10px;
+  padding: 5px;
 }
 .fa-rss-square {
   position: absolute;
