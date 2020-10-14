@@ -72,15 +72,23 @@ main {
   background-color: white;
   margin-top: 10px;
 }
-.fa-signal {
+.fa-rss-square {
   position: absolute;
   top: 0;
   left: 0;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 5px;
+  color: orange;
 }
 #organic-title {
+ font-size: 30px;
  text-align: center;
+ line-height: 30px;
+ margin-right: 20px;
+ margin-top: 5px;
+}
+#green-text {
+  color: #2b9348;
 }
 
 h2 {
