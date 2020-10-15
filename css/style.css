@@ -7,12 +7,12 @@
 body {
   height: 100vh;
   background-image: url(../img/natural-default-pattern.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  padding: 20px 0;
 }
 
 .container {
-  width: 1000px;
+  width: 60%;
   margin: 10px auto;
 }
 
@@ -20,20 +20,28 @@ header {
   color: white;
 }
 .header-top {
+  position: relative;
   width: 100%;
-  height: 300px;
+  height: 380px;
   background-image: url(../img/natural-default-header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   border: 4px solid white;
   text-align: center;
 }
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 .logo-container img{
-  height: 160px;
-  margin-top: 50px;
+  height: 180px;
 }
 .logo-container h1{
-  font-size: 23px;
+  font-size: 22px;
   text-transform: uppercase;
 }
 .header-bottom {
@@ -51,14 +59,15 @@ ul.menù {
   list-style: none;
 }
 ul.menù > li {
-  font-size: 12px;
+  font-size: 14px;
+  font-weight: 400;
   display: inline-block;
   padding: 0 5px;
 }
 
 main {
   width: 100%;
-  height: 800px;
+  margin: 10px 0;
 }
 
 .border{
@@ -105,19 +114,18 @@ h2 {
 }
 
 .right-box {
+  position: relative;
   width: 20%;
-  height: 250px;
+  /* height: 20%; */
   float: left;
-  background-color: white;
   margin-top: 10px;
 }
 .widget {
   width: 100%;
-  height: 250px;
+  /* height: 250px; */
   margin-bottom: 20px;
   padding: 10px;
   background-color: white;
-  border: 1px solid white;
   border-radius: 2%;
 }
 
